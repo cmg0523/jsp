@@ -1,0 +1,82 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	text-decoration:none;
+	color:black;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	display: inline;
+	margin-left:0;
+	margin-right:20px;
+}
+
+header{
+	text-align:center;
+	background-color: #ccc;
+	line-height: 60px;
+	font-size:20px;
+}
+
+nav{
+	height:30px;
+	line-height:30px;
+	background-color:#aaa;
+}
+
+footer{
+	margin-top: 10px;
+	text-align:center;
+	background-color: #ccc;
+	line-height: 30px;
+	font-weight:bold;
+	font-size:15px;
+}
+
+h1{
+	text-align:center;
+	margin:20px;
+}
+
+table{
+	text-align:center;
+	margin: 0 auto;
+}
+.sub1_left{
+	text-align:left;
+}
+.sub5_bold{
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
