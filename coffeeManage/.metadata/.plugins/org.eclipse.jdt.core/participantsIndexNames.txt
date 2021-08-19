@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\coffeeManage\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2459494076.index
+\Coffee_30626\src

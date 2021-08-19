@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>매장별 커피 판매관리</title>
+<link rel="stylesheet" href="css.css" />
+<style>.nav1{text-decoration:underline;}</style>
+</head>
+<body>
+<section>
+<h3>판매등록</h3>
+<form action="action.jsp" method="get">
+<table>
+<tr>
+<td>판매번호</td>
+<td><input type="text" name="saleno"/></td>
+</tr>
+<tr>
+<td>상품코드</td>
+<td><input type="text" name="pcode"/></td>
+</tr>
+<tr>
+<td>판매날짜</td>
+<td><input type="text" name="saledate"/></td>
+</tr>
+<tr>
+<td>매장코드</td>
+<td><input type="text" name="scode"/></td>
+</tr>
+<tr>
+<td>판매수량</td>
+<td><input type="text" name="amount"/></td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="submit" value="등 록"/>
+<input type="reset" value="다시쓰기"/>
+</td>
+</tr>
+</table>
+</form>
+</section>
+</body>
+</html>

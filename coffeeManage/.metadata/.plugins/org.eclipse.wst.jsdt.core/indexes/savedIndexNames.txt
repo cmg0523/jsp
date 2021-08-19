@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\coffeeManage\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+154102245.index
+2459494076.index
+3836095444.index
+3015719048.index
+2311952560.index
+1137596013.index
+2271807423.index

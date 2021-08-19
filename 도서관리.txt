@@ -1,0 +1,31 @@
+conn system/11111
+set autocommit on;
+
+CREATE table tbl_book_01(
+id number(4) primary key,
+name varchar2(50),
+publisher varchar2(20),
+writer varchar(10));
+
+INSERT INTO tbl_book_01 VALUES(1, '코틀린 쿡북', '책만', '켄');
+INSERT INTO tbl_book_01 VALUES(2, 'Do it 타입스크립트 프로그래밍', '이지스퍼블리싱', '전예홍');
+INSERT INTO tbl_book_01 VALUES(3, 'Do it 점프 투 파이썬', '이지스퍼블리싱', '박응용');
+INSERT INTO tbl_book_01 VALUES(4, '모두의 데이터 분석', '길벗', '송석리');
+INSERT INTO tbl_book_01 VALUES(5, '모두의 딥러닝', '길벗', '조태호');
+INSERT INTO tbl_book_01 VALUES(6, '오늘부터 자바스크립트', '길벗', '곽문기');
+INSERT INTO tbl_book_01 VALUES(7, '쉬운 딥러닝', '생능출판사', '반병헌');
+INSERT INTO tbl_book_01 VALUES(8, '데이터 시각화 with 파이썬', '아이콕스', '설진욱');
+
+CREATE table tbl_review_01(
+r_id number(4) not null primary key,
+id number(4) not null, 
+username varchar2(10),
+password varchar2(10),
+review varchar(225));
+
+INSERT INTO tbl_review_01 VALUES(1, 1, '관리자', '1234', '유익해요!');
+INSERT INTO tbl_review_01 VALUES(2, 4, '김철수', '1234', '재밌어요!');
+INSERT INTO tbl_review_01 VALUES(3, 3, '김민수', '1234', '어려워요');
+INSERT INTO tbl_review_01 VALUES(4, 2, '익명', '1234', '쉽게 설명했어요');
+INSERT INTO tbl_review_01 VALUES(5, 7, '최지수', '1234', '추천합니다');
+INSERT INTO tbl_review_01 VALUES(6, 3, '익명', '1234', '추천해요');
