@@ -1,0 +1,8 @@
+conn system/11111
+set autocommit on;
+create table test(
+  id number(10),
+  primary key(id));
+insert into test values(1);
+insert into test values(2);
+insert into test values(3);

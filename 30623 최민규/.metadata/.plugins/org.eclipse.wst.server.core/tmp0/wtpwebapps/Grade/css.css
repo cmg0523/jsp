@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+	color:black;
+}
+section{
+	margin:10px;
+}
+header{
+	background-color:#ccc;
+	text-align: center;
+}
+footer{
+	color: white;
+	background-color:#333333;
+	text-align: center;
+	height:40px;
+	line-height:40px;
+}
+nav ul li{
+	display : inline-block;
+	list-style-type: none;
+	
+}
+nav ul{
+	background-color:#666666;
+	list-style-type: none;
+	height:40px;
+	line-height:40px;
+}
+h2{
+	text-align:center;
+}
+#td{
+	text-align:center;
+}

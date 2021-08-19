@@ -1,0 +1,29 @@
+@charset "EUC-KR";
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+	color:black;
+}
+header{
+	background-color:#ccc;
+	text-align: center;
+}
+footer{
+	color: white;
+	background-color:#333333;
+	text-align: center;
+	height:30px;
+	line-height:30px;
+}
+nav ul {
+	background-color:#666666;
+	height:40px;
+	line-height:40px;
+	list-style-type: none;
+}
+nav ul li{
+	display : inline-block;
+	list-style-type: none;
+	margin-left: 20px;
+}

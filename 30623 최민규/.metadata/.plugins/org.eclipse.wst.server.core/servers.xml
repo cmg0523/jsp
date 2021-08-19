@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
+    <list key="modules" value0="bookmanage::org.eclipse.jst.jee.server:bookmanage::jst.web::3.0" value1="ex0623::org.eclipse.jst.jee.server:ex0623::jst.web::3.0" value2="Test::org.eclipse.jst.jee.server:Test::jst.web::3.0" value3="Test0616::org.eclipse.jst.jee.server:Test0616::jst.web::3.0" value4="Grade::org.eclipse.jst.jee.server:Grade::jst.web::3.0" value5="Coffee_30626::org.eclipse.jst.jee.server:Coffee_30626::jst.web::3.0"/>
+  </server>
+</servers>

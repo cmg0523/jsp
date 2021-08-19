@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	color :black;
+}
+
+header{
+	background-color:#e5e5e5;
+	text-align:center;
+	padding:5px;
+}
+h2, h3{text-align:center;}
+li{
+	display:inline-block;
+	padding:5px;
+	margin-left:5px;
+}
+nav{background-color:#999999;}
+footer{
+	color:white;
+	background-color:#4c4c4c;
+	text-align:center;
+	padding:5px;
+}

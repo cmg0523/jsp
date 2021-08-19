@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css.css">
+<style>.nav1{text_decoration:none;}</style>
+</head>
+<body>
+	<jsp:include page="header.jsp"></jsp:include>
+	<section>
+	<h3>도서등록</h3>
+	<form action="action.jsp" method="get">
+		<table border="1">
+			<tr>
+				<td>제목</td>
+				<td><input type="text" name="title" id="title" /></td>
+			</tr>
+			<tr>
+				<td>출판사</td>
+				<td><input type="text" name="publisher" id="publisher" /></td>
+			</tr>
+			<tr>
+				<td>작가</td>
+				<td><input type="text" name="writer" id="writer" /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="등 록"/>
+				<input type="reset" value="다시쓰기" id="title" />
+				</td>
+			</tr>
+		</table>
+	</form>
+	</section>
+	
+	<jsp:include page="footer.jsp"></jsp:include>
+</body>
+</html>
