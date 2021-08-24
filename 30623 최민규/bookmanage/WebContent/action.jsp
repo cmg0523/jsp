@@ -11,7 +11,7 @@ Connection conn = null;
 Statement stmt = null;
 conn = Util.getConnection();
 stmt = conn.createStatement();
-String sql = "INSERT INTO tbl_book_01 VALUES(" + title + ", "+ "'" + publisher + "', " + writer + ")";
+String sql = "INSERT INTO tbl_book_01 VALUES(seq.nextval, '" + title + "', '" + publisher + "', '" + writer + "')";
 stmt.executeUpdate(sql);
 response.sendRedirect("insert.jsp");
 %>

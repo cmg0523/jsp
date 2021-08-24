@@ -17,15 +17,15 @@
 			var writer = document.getElementById("writer").value;
 			var publisher = document.getElementById("publisher").value;
 			
-			if(title=""){
+			if(title==""){
 				alert("책 이름이 입력되지 않았습니다.");
 				return false;
 			}
-			else if(publisher=""){
+			else if(publisher==""){
 				alert("출판사가 입력되지 않았습니다.");
 				return false;
 			}
-			else if(writer=""){
+			else if(writer==""){
 				alert("작가가 입력되지 않았습니다.");
 				return false;
 			}
@@ -45,7 +45,7 @@
 	<jsp:include page="header.jsp"></jsp:include>
 	<section>
 	<h3>도서등록</h3>
-	<form action="action.jsp" method="get" onsubmit="return check" onreset="return resetcheck">
+	<form action="action.jsp" method="get" onreset="return resetcheck()" onsubmit="return check()">
 		<table border="1">
 			<tr>
 				<td>제목</td>
